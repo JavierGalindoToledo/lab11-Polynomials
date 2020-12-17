@@ -6,8 +6,8 @@ before_script:
   - mkdir ../build
   - cd ../build
 script:
-  - cmake ../lab5-multistack
+  - cmake ../lab11-Polynomials
   - make -j
-  - ./test/MP5_TESTS
+  - ./test/MP11_TESTS
 notifications:
   email: false
