@@ -63,3 +63,11 @@ TEST(Polish, operation_order_conversely)
 
 	EXPECT_EQ(P.Calculation(s), 10);
 }
+TEST(Polish, t1)
+{
+	char* s;
+	s = "(2+3)*4";
+	TPolish P;
+
+	EXPECT_EQ(P.Calculation(s), 20);
+}
